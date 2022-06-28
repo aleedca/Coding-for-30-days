@@ -32,21 +32,6 @@ int sockMerchant(int n, vector<int> ar) {
 }
 
 int main(){
-
-    int n = 9;
-    vector <int> ar;
-
-    ar.push_back(10);
-    ar.push_back(20);
-    ar.push_back(20);
-    ar.push_back(10);
-    ar.push_back(10);
-    ar.push_back(30);
-    ar.push_back(50);
-    ar.push_back(10);
-    ar.push_back(20);
-
-    cout << sockMerchant(n, ar) << endl;
-
+    cout << sockMerchant(9, {10,20,20,10,10,30,50,10,20}) << endl;
     return 0;
 }

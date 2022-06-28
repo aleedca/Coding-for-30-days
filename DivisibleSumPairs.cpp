@@ -21,17 +21,6 @@ int divisibleSumPairs(int n, int k, vector<int> ar) {
 }
 
 int main(){
-    int n = 6;
-    int k = 3;
-    vector<int> ar;
-
-    ar.push_back(1);
-    ar.push_back(3);
-    ar.push_back(2);
-    ar.push_back(6);
-    ar.push_back(1);
-    ar.push_back(2);
-
-    cout << divisibleSumPairs(n, k, ar) << endl;
+    cout << divisibleSumPairs(6, 3, {1,3,2,6,1,2}) << endl;
     return 0;
 }
