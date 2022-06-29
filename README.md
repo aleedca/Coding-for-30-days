@@ -1,6 +1,8 @@
 # Coding-for-30-days
-*Problem Solving Basic, Easy from HackerRank*
+Topic: Problem Solving Basic, Easy from HackerRank
 
-• Why am I doing this? 
-  
-  To challenge myself and build discipline, also to improve and develop new skills :)
+#### Why am I doing this? 
+- To challenge myself.
+- To build discipline.
+- To improve and develop new skills.
+- To not be so hard on myself if I get to fail
