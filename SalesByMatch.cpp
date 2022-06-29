@@ -12,20 +12,18 @@ using namespace std;
 
 int sockMerchant(int n, vector<int> ar) {
     int pairCounter = 0;
-    sort(begin(ar), end(ar));
-    
     int i = 0;
-    int j = 1;
     
-    while(j < n){
-        if(ar[i] == ar[j]){
+    sort(begin(ar), end(ar)); //sort the array
+    
+    while (i < n-1){
+        if(ar[i] == ar[i+1]){
             pairCounter++;
-            i = j+1;
-            j = i+1;
+            i += 2;
         }
-        i = j;
-        j = i+1;
-        cout << i << endl;
+        else{
+            i++;
+        }
     }
     
     return pairCounter;
