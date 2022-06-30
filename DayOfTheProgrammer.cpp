@@ -14,7 +14,7 @@ string dayOfProgrammer(int year) {
         // subtracting the 256 days and the number of days in each month from January to August, we get the programmer's day in September
         if(year < 1918){
             // year only from julian calendar
-            // 243 and 244 are the sum of days of each month but the result depends on whether the year is a leap year or not
+            // 243 and 244 are the sum of days of each month but the result depends on whether the year is a leap one or not
             date = year % 4 == 0 ? to_string(256-244)+ ".09." + to_string(year):to_string(256-243)+ ".09." + to_string(year);
         }
         else if(year == 1918){

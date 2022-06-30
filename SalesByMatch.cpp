@@ -14,7 +14,7 @@ int sockMerchant(int n, vector<int> ar) {
     int pairCounter = 0;
     int i = 0;
     
-    sort(begin(ar), end(ar)); //sort the array
+    sort(begin(ar), end(ar)); //sort the vector
     
     while (i < n-1){
         if(ar[i] == ar[i+1]){
