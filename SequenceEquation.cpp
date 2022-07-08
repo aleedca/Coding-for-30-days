@@ -12,17 +12,20 @@ using namespace std;
 vector<int> permutationEquation(int n, vector<int> p) {
     vector<int> values;
     int x = 1;
-    int y = x;
     
     while(x <= n){
         int index = 0;
-        int counter = 1;
+        int counter = 0;
+        int y = x;
         while(counter <= 2){
             if(p[index] == y){
-                y = index;
+                y = index + 1;
                 index = 0;
                 counter++;
-                if(counter == 2) values.push_back(y);
+                if(counter == 2){
+                    values.push_back(y);
+                    break;
+                }
             }
             else index++;
         }
@@ -39,5 +42,6 @@ void printArray(int n, vector<int> p){
 
 int main(){
     printArray(5, permutationEquation(5,{5, 2, 1, 3, 4}));
+    printArray(3, permutationEquation(3,{2, 3, 1}));
     return 0;
 }
