@@ -1,5 +1,5 @@
 # Coding-for-30-days
-Topic: Problem Solving Basic, Easy from HackerRank
+Topic: Problem Solving Basic, Easy from HackerRank with C++
 
 #### Why am I doing this? 
 - To challenge myself.
