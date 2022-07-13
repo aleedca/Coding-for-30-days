@@ -5,4 +5,4 @@ Topic: Problem Solving Basic, Easy from HackerRank with C++
 - To challenge myself.
 - To build discipline.
 - To improve and develop new skills.
-- To not be so hard on myself if I get to fail
+- To not be so hard on myself if I get to fail.
