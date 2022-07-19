@@ -1,4 +1,4 @@
-# Coding-for-30-days
+# Coding-30-algorithms
 Topic: Problem Solving Basic, Easy from HackerRank with C++
 
 #### Why am I doing this? 
